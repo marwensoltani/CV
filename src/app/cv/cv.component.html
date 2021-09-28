@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-md-5">
+        <app-liste [tabPersonnes]="listPersonne" (msgToCv)="RecupPers($event)"></app-liste>
+    </div>
+    <div class="col-md-7">
+        <app-detail [selectedPersonne]="selectedPers"></app-detail>
+    </div>
+</div>
+<!-- <router-outlet></router-outlet> -->
+<!-- <button (click)="addNewPerson()" class="btn btn-danger">Add Person</button> -->

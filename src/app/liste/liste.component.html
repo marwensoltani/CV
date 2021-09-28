@@ -1,0 +1,7 @@
+<ol>
+    <app-item appCustomDir *ngFor="let p of tabPersonnes" (msgToList)="RecupPerson($event)" [onePerson]="p"></app-item>
+    <!-- <app-item (msgToList)="RecupPerson($event)" [onePerson]="tabPersonnes[1]"></app-item>
+    <app-item (msgToList)="RecupPerson($event)" [onePerson]="tabPersonnes[2]"></app-item> -->
+</ol>
+
+<!-- <button (click)="showList()" class="btn btn-danger">List Person from List</button> -->

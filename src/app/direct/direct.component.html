@@ -1,0 +1,17 @@
+<div [ngStyle]="{
+    'backgroundColor' : 'pink',
+    'color' : 'blue'
+}">
+    Exemple NgStyle
+</div>
+
+<br><br>
+<div [ngClass]="{
+    c1 : c1Value,
+    c2 : c2Value,
+    c3 : c3Value
+}">
+    Exemple NgClass
+</div>
+
+<button (click)="changeStyle()" class="btn btn-primary">Switch Class</button>
